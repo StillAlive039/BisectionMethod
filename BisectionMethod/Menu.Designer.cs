@@ -48,6 +48,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(333, 214);
             this.Controls.Add(this.Start);
+            this.MaximumSize = new System.Drawing.Size(351, 261);
+            this.MinimumSize = new System.Drawing.Size(351, 261);
             this.Name = "Menu";
             this.Text = "Bisection Method";
             this.ResumeLayout(false);

@@ -22,6 +22,7 @@ namespace BisectionMethod
             Bisection Bisec = new Bisection();
             Bisec.Show();
             this.Hide();
+            Bisec.MenuRef = this;
 
         }
     }
